@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Village Of The Moon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">DOWNLOAD</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Download <span class="auto-input2"></span></h1>
+</section>
+
+<!-----Course----->
+
+<section class="course">
+    <h1>Before You Download</h1>
+    <p>(Please read everything before installing the game.)</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Alpha Status</h3>
+            <p>The game is still in the middle of development, which means that there will still be many bugs and performance problems. If you find a bug, please let us know so we can fix it as soon as possible.</p>
+        </div>
+        <div class="course-col">
+            <h3>Responsibility</h3>
+            <p>We do not take any responsibility for everything running well and smoothly after installation. However, we do help as much as we can.</p>
+        </div>
+        <div class="course-col">
+            <h3>Reporting</h3>
+            <p>In the current phase of the game (or the app) it would help us a lot to report these errors via the category "contact us". We can't force anyone to do this, but it would be very helpful.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-----facilities----->
+
+<section class="facilities">
+    <h1>Download's</h1>
+    <p>Have fun </p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <h3>Game Launcher</h3>
+            <a href="downloads/Setup Update Launcher.msi" download="Setup Game Launcher" class="hero-btn red-btn"> Download</a>
+        </div>
+        <div class="facilities-col">
+            <h3>Game Launcher</h3>
+            <a href="downloads/Setup Update Launcher.msi" download="Setup Game Launcher" class="hero-btn red-btn"> Download</a>
+        </div>
+        <div class="facilities-col">
+            <h3>Game Launcher</h3>
+            <a href="downloads/Setup Update Launcher.msi" download="Setup Game Launcher" class="hero-btn red-btn"> Download</a>
+        </div>
+        <div class="facilities-col">
+            <h3>Game Launcher</h3>
+            <a href="downloads/Setup Update Launcher.msi" download="Setup Game Launcher" class="hero-btn red-btn"> Download</a>
+        </div>
+        <div class="facilities-col">
+            <h3>Game Launcher</h3>
+            <a href="downloads/Setup Update Launcher.msi" download="Setup Game Launcher" class="hero-btn red-btn"> Download</a>
+        </div>
+</section>
+
+<!-----Footer----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt<br>ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/Village-Of-The-Moon-104653532120151"><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCb8KyeK2nEAix9iQkZdDkdg"><i class="fa fa-youtube-play"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by TruckiHD</p>
+</section>
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+        var typed = new Typed(".auto-input2", {
+        strings: ["Launcher", "Game"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    })
+</script>
+</body>
+</html>
