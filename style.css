@@ -343,7 +343,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner4.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -750,4 +750,15 @@ h3{
     .facilities-col{
         margin-top: -30px;
     }
+}
+
+.blog-version{
+
+}
+.blog-version h3{
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
 }

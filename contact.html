@@ -26,7 +26,7 @@
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
-    <h1>Contact Us</h1>
+    <h1>Contact <span class="auto-input3"></span></h1>
 </section>
 
 <!-----Contact Us----->
@@ -92,6 +92,15 @@
     function hideMenu(){
         navLinks.style.right = "-200px";
     }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+        var typed = new Typed(".auto-input3", {
+        strings: ["Us", "the Team"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    })
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=305537821"></script>
