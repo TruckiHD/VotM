@@ -765,3 +765,32 @@ h3{
     text-align: center;
     padding-top: 100px;
 }
+.content-commentation{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff3f3;
+    width: 1000px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.commentar-section{
+    font-size: 30px;
+}
+.commentar-section h3{
+    font-weight: bold;
+    font-style: normal;
+}
+.sub-header1{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(#000000 70%,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000,#fff 100%);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    margin-top: -50;
+}
+.sub-header1 h1{
+    margin-top: 100px;
+}

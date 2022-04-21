@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 <body>
-<section class="sub-header">
+<section class="sub-header1">
     <nav>
         <a href="index.html"><img src="images/logo.png"></a>
         <div class="nav-links" id="navLinks">
@@ -20,7 +20,7 @@
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="download.html ">DOWNLOAD</a></li>
-                <li><a href="blog.html">NEWS</a></li>
+                <li><a href="blog.php">NEWS</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </div>
@@ -38,28 +38,31 @@
                 <h3>Updates</h3>
                 <div class="version-box">
                     <h4>Verison 0.2.2</h4>
-                    <p>With the update 0.2.2 many bugs were fixed and the settings menu was completed. You now have the possibility to set the speed of the time and also to pause it. Since many people are still complaining about the performance, the main focus until the next update will be on getting this game to run smoothly everywhere. This version was also released for the game testers. If you want to become a game tester yourself, please visit our official discord.</p>
+                    <p>With the update 0.2.2 many bugs were fixed and the settings menu was completed. You now have the possibility to set the speed of the time and also to pause it. Since many people are still complaining about the performance, the main focus until the next update will be on getting this game to run smoothly everywhere. This version was also released for the game testers. If you want to become a game tester yourself, please visit our official <a href="https://discord.gg/W9f7HJEbRq" class="btnimpressum">Discord</a>. Last but not least, it is worth mentioning that village of the moon can now be played in 5 languages. The languages are English, German, French, Spanish and Polish.</p>
                     <br>
                 </div>
                 <div class="version-box">
                     <h4>Verison 0.2.1</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at facilisis neque. Phasellus non egestas urna. Pellentesque sit amet dapibus ligula. Quisque viverra ex sit amet tellus blandit ultricies. Nunc sed lobortis leo, id euismod risus. Pellentesque venenatis malesuada sodales. Integer ut odio massa. Proin feugiat, nunc id condimentum condimentum, diam nisi elementum mauris, ac venenatis ipsum lorem vitae enim. Sed in felis ac est tincidunt iaculis. </p>
+                    <p>In this update, the entire camera system has been revised once again. This means that you can now use the keyboard to move the camera and if you press the middle mouse button you can rotate the camera. In addition, a few changes were made to the user interface and the map, new objects were added to the game and last but not least, performance was optimised.</p>
                     <br>
                 </div>
                 <div class="version-box">
                     <h4>Verison 0.2.0</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at facilisis neque. Phasellus non egestas urna. Pellentesque sit amet dapibus ligula. Quisque viverra ex sit amet tellus blandit ultricies. Nunc sed lobortis leo, id euismod risus. Pellentesque venenatis malesuada sodales. Integer ut odio massa. Proin feugiat, nunc id condimentum condimentum, diam nisi elementum mauris, ac venenatis ipsum lorem vitae enim. Sed in felis ac est tincidunt iaculis. </p>
+                    <p>In this new version, the first version of the settings menu has been added. You can now adjust the graphics to give people with low-end computers a chance to enjoy this game smoothly. In addition, it is now possible to set the volume of the game and the music. Of course, there is not only the improved settings menu but also many smaller improvements. From version 0.2.2 it will also be possible to test the game as a game tester. If you want to apply as a game tester, please visit our <a href="https://discord.gg/W9f7HJEbRq" class="btnimpressum">Discord</a>.</p>
                     <br>
                 </div>
             </div>
             <div class="comment-box">
-                <h3>Leave a comment</h3>
-                <form class="comment-form">
-                    <input type="text" placeholder="Enter Name">
-                    <input type="email" placeholder="Enter Email">
-                    <textarea rows="5" placeholder="Your comment"></textarea>
-                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                <h3>Leave a comment (IN DEVELOPMENT)</h3>
+                <form class="comment-form" action="" method="post">
+                    <input type="text" name="name" placeholder="Enter Name">
+                    <input type="email" name="email" placeholder="Enter Email">
+                    <textarea rows="5" name="message" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn" name="post">POST COMMENT</button>
                 </form>
+            </div>
+            <div class="content-commentation">
+
             </div>
         </div>
         <div class="blog-right">
