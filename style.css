@@ -403,9 +403,6 @@ h3{
 }
 
 .about-us{
-    align-items: center;
-    display: flex;
-    justify-content: center;
     width: 80%;
     margin: auto;
     padding-top: 80px;
@@ -432,6 +429,14 @@ h3{
 }
 .red-btn:hover{
     color: #fff;
+}
+@media(max-width: 700px){
+    .about-us{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 50px;
+    }
 }
 
 
