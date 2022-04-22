@@ -403,6 +403,9 @@ h3{
 }
 
 .about-us{
+    align-items: center;
+    display: flex;
+    justify-content: center;
     width: 80%;
     margin: auto;
     padding-top: 80px;
@@ -646,6 +649,7 @@ h3{
 }
 @media(max-width: 1550px){
     .card{
+        justify-content: center;
         position: relative;
         display: flex;
         width: 250px;
