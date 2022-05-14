@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Village Of The Moon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="download.html ">DOWNLOAD</a></li>
+                <li><a href="blog.html">NEWS</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1><span class="auto-input4"></span></h1>
+</section>
+
+<!-----Blog page Content----->
+
+<section class="container1">
+    <div class="container">
+        <div class="accordion">
+            <div class="accordion-item" id="/question1">
+                <a class="accordion-link" href="#/question1">
+                    What Is VOTM ?
+                    <i class="fa fa-plus"></i>
+                    <i class="fa fa-minus"></i>
+                </a>
+                <div class="answer">
+                    <p>Village of the moon is a real-time strategy game inspired by Werewolf. Build your village and defend it from the evil creatures.</p>
+                </div>
+            </div>
+            <div class="accordion-item" id="/question2">
+                <a class="accordion-link" href="#/question2">
+                    How Do I Get Access To The Game ?
+                    <i class="fa fa-plus"></i>
+                    <i class="fa fa-minus"></i>
+                </a>
+                <div class="answer">
+                    <p>Since the game is far from being finished, you can currently only test it as a game tester. To become one, please check out our Discord to apply or the contact page. Otherwise the game will be released in one or two years on steam.</p>
+                </div>
+            </div>
+            <div class="accordion-item" id="/question3">
+                <a class="accordion-link" href="#/question3">
+                    Is Village Of The Moon Available On Mac Or Linux ?
+                    <i class="fa fa-plus"></i>
+                    <i class="fa fa-minus"></i>
+                </a>
+                <div class="answer">
+                    <p>Currently we do not plan the game available on Mac and Linux. If we eventually get around to it later, we will try to make it available for Mac and Linux users as well.</p>
+                </div>
+            </div>
+            <div class="accordion-item" id="/question4">
+                <a class="accordion-link" href="#/question4">
+                    How Can I Submit Bugs Or Crashes ?
+                    <i class="fa fa-plus"></i>
+                    <i class="fa fa-minus"></i>
+                </a>
+                <div class="answer">
+                    <p>You can send bug/crash reports by emailing <a href="mailto:villageofthem@gmail.com" class="btnimpressum">villageofthemoon@gmail.com</a>. When submitting a bug report, please include the following:<br><br>
+
+                    - A detailed explanation of your bug/crash<br>
+                    - Steps to reproduce the bug/crash (if possible)<br>
+                    - A DXDIAG file that contains detailed information about your hardware Task Bar > DXDIAG > Save Information<br><br>
+                    
+                    You can also create a ticket on our <a href="https://discord.gg/W9f7HJEbRq" class="btnimpressum">offical Discord server</a>, by text our Modmail-Bot.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item" id="/question5">
+                <a class="accordion-link" href="#/question5">
+                    What are VOTM's PC requirements ?
+                    <i class="fa fa-plus"></i>
+                    <i class="fa fa-minus"></i>
+                </a>
+                <div class="answer">
+                    <p>Since we don't have enough data yet and are always improving the game performance technically, we haven't set a minimum requirement yet. Just try it and if it doesn't work, it's best to wait for new updates, because as already mentioned, they always bring out new performance patches.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-----Footer----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are a very small development team consisting of only a few people. <br>Feel free to check out our social media links!</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/Village-Of-The-Moon-104653532120151"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/VillageOfTheM"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/villageofthemoonstudios/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/channel/UCnEaTgiF-ArV52M4bJMBjRg"><i class="fa fa-youtube-play"></i></a>
+    </div>
+    <p>Copyright © 2022 by VOTM Studios</p>
+</section>
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+        var typed = new Typed(".auto-input4", {
+        strings: ["Frequently Asked Questions", "FAQ"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    })
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=305537821"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '305537821');
+</script>
+</body>
+</html>
