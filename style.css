@@ -884,7 +884,12 @@ h3{
 .accordion-item:target .accordion-link .fa-minus{
     display: block;
 }
-
+@media(max-height: 900px) {
+    .container1{
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+}
 @media(max-width: 500px){
     .container1{
         margin-top: 18rem;
