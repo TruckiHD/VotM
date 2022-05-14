@@ -875,7 +875,7 @@ h3{
     padding: 1rem;
 }
 .accordion-item:target .answer{
-    max-height: 20rem;;
+    max-height: 30rem;;
 }
 
 .accordion-item:target .accordion-link .fa-plus{
@@ -885,10 +885,16 @@ h3{
     display: block;
 }
 
-@media(max-width: 700px){
+@media(max-width: 500px){
     .container1{
-        padding-top: 17rem;
-        padding-bottom: 16rem;
+        margin-top: 18rem;
+        margin-bottom: 18rem;
+    }
+}
+@media(max-width: 400px){
+    .container1{
+        margin-top: 23rem;
+        margin-bottom: 23rem;
     }
 }
 html{
